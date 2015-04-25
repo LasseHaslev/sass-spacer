@@ -1,10 +1,10 @@
-@mixin spacer($type, $size-name, $size) {
+@mixin space-object($type, $size-name, $size) {
     .#{$type}#{$size-name} {
         #{$type}:$size;
     }
 }
 
-@mixin space($what) {
+@mixin spacer($what) {
     @include space-directions($what);
 }
 
@@ -16,6 +16,6 @@
 
 @mixin space-sizes($type) {
     @each $size in $space-sizes {
-        @include spacer($type, nth( $size, 1 ), nth($size, 2));
+        @include space-object($type, nth( $size, 1 ), nth($size, 2));
     }
 }
