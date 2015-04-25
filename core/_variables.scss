@@ -1,0 +1,9 @@
+$space: 8px;
+
+$space-sizes:   ( "" $space ),
+                ( "-small" $space / 2 ),
+                ( "-micro" $space / 4 ),
+                ( "-large" $space * 2 ),
+                ( "-big" $space * 4 );
+
+$space-directions: "" "-top" "-right" "-bottom" "-left";
