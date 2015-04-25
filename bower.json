@@ -1,0 +1,25 @@
+{
+  "name": "sass-spacer",
+  "version": "0.0.1",
+  "homepage": "https://github.com/LasseHaslev/sass-spacer",
+  "authors": [
+    "Lasse S. Haslev <lasse@haslev.no>"
+  ],
+  "description": "Spacer is a class creator that sets the default classes for spacing and margin.",
+  "keywords": [
+    "sass",
+    "spacing",
+    "space",
+    "margin",
+    "padding"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "vendor/bower_components",
+    "test",
+    "tests"
+  ]
+}
