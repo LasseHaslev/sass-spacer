@@ -1,0 +1,23 @@
+{
+  "name": "sass-spacer",
+  "version": "1.0.0",
+  "description": "Sass spacer is a module for adding spacing for margin and padding for all, horizontal, vertical, top, bottom, left and right. You also have big, large, normal, small and micro size.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LasseHaslev/sass-spacer.git"
+  },
+  "keywords": [
+    "sass",
+    "space"
+  ],
+  "author": "Lasse S. Haslev",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/LasseHaslev/sass-spacer/issues"
+  },
+  "homepage": "https://github.com/LasseHaslev/sass-spacer#readme"
+}
